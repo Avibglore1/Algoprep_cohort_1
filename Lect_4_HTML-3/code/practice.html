@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="comments">Comments</label>
+        <textarea id="comments" cols="10" rows="10"></textarea>
+        <br><br>
+        <label for="dropdown">Languages</label>
+        <select id="dropdown">
+            <option value="01">C++</option>
+            <option value="02" selected>Java</option>
+            <option value="03">Python</option>
+        </select>
+        <br><br>
+        <fieldset>
+            <legend>What do you want to have?</legend>
+            <input type="checkbox" id="coffee" >
+            <label for="coffee">Coffee</label>
+            <input type="checkbox" id="tea">
+            <label for="tea">Tea</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Do you aceept our terms and conditions</legend>
+            <input type="radio" id="yes" name="terms" checked>
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="terms" >
+            <label for="no">No</label>
+        </fieldset>
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
